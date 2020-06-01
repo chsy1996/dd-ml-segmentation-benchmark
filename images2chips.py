@@ -69,7 +69,7 @@ def get_split(scene):
     if scene in train_ids:
         return "train.txt"
     if scene in val_ids:
-        return 'valid.txt'
+        return 'val.txt'
     if scene in test_ids:
         return 'test.txt'
 
@@ -77,7 +77,7 @@ def run(prefix):
 
 
     open(prefix + '/train.txt', mode='w').close()
-    open(prefix + '/valid.txt', mode='w').close()
+    open(prefix + '/val.txt', mode='w').close()
     open(prefix + '/test.txt', mode='w').close()
 
     # create image-chips file and label-chips file if not exists
