@@ -1,8 +1,0 @@
-dataset-sample
-dataset-medium
-dataset-large
-dataset-whole
-__pycache__
-wandb
-*.tar.gz
-models
